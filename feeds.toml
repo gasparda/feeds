@@ -1,6 +1,8 @@
 [securityjourney]
 title = "Security Journey Blog"
 url = "https://www.securityjourney.com/resources/blog"
-entrySelector = ".w-inline-block"
+entrySelector = ".blog-horizontal-card__inner-wrap"
 titleSelector = ".blog-card__title"
-linkSelector = "*"
+linkSelector = "a"
+dateSelector = ".blog-card-date"
+dateFormat = "MMMM d, y"
