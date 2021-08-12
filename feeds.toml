@@ -1,6 +1,6 @@
 [securityjourney]
 title = "Security Journey Blog"
 url = "https://www.securityjourney.com/resources/blog"
-entrySelector = ".blog-horizontal-card__inner-wrap"
-titleSelector = "a .w-inline-block > .blog-card__title"
-linkSelector = "a .w-inline-block"
+entrySelector = ".comp__blog-horizontal-card"
+titleSelector = ".blog-card__title"
+linkSelector = ".card-image-link-wrapper .w-inline-block"
